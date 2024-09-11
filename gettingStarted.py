@@ -12,7 +12,7 @@ def welcome_assignment_answers(question):
         "What is the SHA256 hashing value of your NYU email and use the answer in your code - ": "7c553fe0663bfe748cf99685d577034519a6913e215abcd57cc2bf6928f9c485",
         "Is MD5 a secured hashing algorithm? - Yes/No": "No",
         "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number": 4,
-        "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number": 3
+        "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number": 2
     }
     return cases.get(question, "Question not found.")
 # Complete all the questions.
